@@ -305,11 +305,12 @@
 
     <!-- account open -->
     <section class="section section--sign-up">
-        <div class="section__title">
-            <h3 class="section__header">
-                The best day to join Bankist was one year ago. The second best is today
-            </h3>
-        </div>
+       <div class="section--title">
+        <h3 class="section--header">
+          The best day to join Bankist was one year ago. The second best is
+          today!
+        </h3>
+       </div>
         <button class="btn btn--show-modal">Open your free account today!</button>
     </section>
 
@@ -345,5 +346,25 @@
             use for learning or your portfolio. Dont use to teach. Dont claim as your own product
         </p>
     </footer>
+
+    <!-- * Modal window -->
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">Open your Bank account <br> in just <span class="highlight">5 minutes</span></h2>
+
+      <form action="#" class="modal__form">
+        <label>First Name</label>
+        <input type="text">
+        <label >Last Name</label>
+        <input type="text">
+        <label >Email Address</label>
+        <input type="email">
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="main.js"></script>
   </body>
 </html>
